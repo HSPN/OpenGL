@@ -1,0 +1,7 @@
+bin 제외
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023에 include, lib폴더에 각각 넣음. 단, include의 경우 GL폴더까지 넣어야함
+
+bin
+윈도우즈 폴더 내 System32에 바로 넣기
+
+VC2017기준이고, gl와 glu는 외장그래픽을 사용하면 자동설치되어있음. 따라서 glew, glut, glfw 이 세개만 이 폴더에 들어있음
